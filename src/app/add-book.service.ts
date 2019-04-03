@@ -46,13 +46,7 @@ export class AddBookService {
   }
 
   deleteBook(item) {
-    //this.books.splice(item , 1);
-    const bookEzer: Book[] = [];
-    this.books.forEach(element => {
-      if (element.id != item.id) {
-          bookEzer.push(element);
-      }
-      this.books = bookEzer;
-    });
-  }
+    let index :number = this.books.indexOf(item);
+    this.books.splice(index, 1);
+ }
 }
