@@ -1,0 +1,14 @@
+.book-library{
+  box-sizing: border-box;
+  display: inline;
+  .book{
+      background: #2196F3;
+      display: inline-block;
+      vertical-align: top;
+      margin: 0 8px 16px;
+      margin-top: 0px;
+      text-align: initial;
+      padding: 20px;
+      color: white;
+  }
+}

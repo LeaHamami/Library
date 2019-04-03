@@ -1,0 +1,8 @@
+<div >
+  <div>{{item.title | titlecase}}</div>
+
+  <div>Date : {{item.date | date}}</div>
+  <div>Author: {{item.author}}</div>
+<button (click)="editButton(item)" class="btn-edit">edit</button>
+<button (click)="deleteButton(item)" class="btn-delete">delete</button>
+</div>
